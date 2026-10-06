@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(160deg, #0f0f1a 0%, #16213e 50%, #1a1a2e 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+.header-nav {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.search-box {
+  max-width: 650px;
+}
+
+.movie-card {
+  background-color: #1b1b2f;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.movie-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(245, 197, 24, 0.25);
+}
+
+.movie-poster {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.plot-text {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9rem;
+  display: -webkit-box;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.details-poster {
+  max-width: 340px;
+  width: 100%;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+}
